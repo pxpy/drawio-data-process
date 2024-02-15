@@ -6,7 +6,7 @@
 
     <groupId>me.panxin</groupId>
     <artifactId>drawio-data-process</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <url>https://panxin.me/drawio-data-process</url>
 
     <name>drawio-data-process</name>
@@ -35,15 +35,17 @@
     <scm>
         <connection>https://github.com/pxpy/drawio-data-process.git</connection>
         <developerConnection>https://github.com/pxpy/drawio-data-process.git</developerConnection>
-        <url>https://panxin.me/drawio-data-process</url>
+        <url>https://github.com/pxpy/drawio-data-process</url>
     </scm>
 
     <dependencies>
         <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.9.0</version>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
         </dependency>
+
     </dependencies>
     <build>
         <plugins>

@@ -3,7 +3,11 @@ drawio导出的png图片是含有原始信息的，本工具用于提取原始�
 # 使用方法
 1. 下载添加依赖
 ``` xml
-
+<dependency>
+    <groupId>me.panxin</groupId>
+    <artifactId>drawio-data-process</artifactId>
+    <version>0.0.1</version>
+</dependency>
 ```
 
 2. 调用
